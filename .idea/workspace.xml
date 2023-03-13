@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a9fe25a-9eea-4c1c-96d3-947aec6c774e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2McY1ylljxrIC9zOvGhTBV9kbSf" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.14453125" />
+    <property name="project.structure.side.proportion" value="0.14814812" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\qfedu-frame\game\农产品项目\Agricultural\src\main\java\com\gricultural\service\impl" />
+      <recent name="F:\IdeaProjects\qfedu-frame\game\农产品项目\Agricultural\src\main\java\com\gricultural\service" />
+      <recent name="F:\IdeaProjects\qfedu-frame\game\农产品项目\Agricultural\src\main\java\com\gricultural\mapper" />
+      <recent name="F:\IdeaProjects\qfedu-frame\game\农产品项目\Agricultural\src\main\java\com\gricultural\controller" />
+      <recent name="F:\IdeaProjects\qfedu-frame\game\农产品项目\Agricultural\src\main\java\com\gricultural\pojo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/com" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gricultural.handler" />
+      <recent name="com.gricultural.utils" />
+      <recent name="com.gricultural.pojo" />
+      <recent name="com.example.gricultural.controller" />
+      <recent name="com.example.gricultural.service.impl" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AgriculturalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Agricultural" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gricultural.AgriculturalApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a9fe25a-9eea-4c1c-96d3-947aec6c774e" name="Changes" comment="" />
+      <created>1678068129550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678068129550</updated>
+      <workItem from="1678068131469" duration="22728000" />
+      <workItem from="1678106994828" duration="17369000" />
+      <workItem from="1678155184379" duration="2238000" />
+      <workItem from="1678157710837" duration="44000" />
+      <workItem from="1678157775309" duration="2890000" />
+      <workItem from="1678161552491" duration="2650000" />
+      <workItem from="1678171099410" duration="6508000" />
+      <workItem from="1678183136008" duration="1417000" />
+      <workItem from="1678188666239" duration="6808000" />
+      <workItem from="1678196672573" duration="10895000" />
+      <workItem from="1678209626467" duration="5658000" />
+      <workItem from="1678263732048" duration="450000" />
+      <workItem from="1678265855022" duration="1900000" />
+      <workItem from="1678272867997" duration="34799000" />
+      <workItem from="1678322349122" duration="901000" />
+      <workItem from="1678323900160" duration="8825000" />
+      <workItem from="1678334706710" duration="2527000" />
+      <workItem from="1678338215361" duration="53764000" />
+      <workItem from="1678457532226" duration="7696000" />
+      <workItem from="1678465276230" duration="12477000" />
+      <workItem from="1678478813040" duration="15000" />
+      <workItem from="1678478951671" duration="1120000" />
+      <workItem from="1678480439545" duration="12804000" />
+      <workItem from="1678493334278" duration="19000" />
+      <workItem from="1678518805383" duration="4412000" />
+      <workItem from="1678523252312" duration="8302000" />
+      <workItem from="1678617669805" duration="19204000" />
+      <workItem from="1678695879052" duration="4611000" />
+      <workItem from="1678700567310" duration="339000" />
+      <workItem from="1678700918865" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.context.annotation.ConflictingBeanDefinitionException" package="org.springframework.context.annotation" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

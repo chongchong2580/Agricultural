@@ -1,0 +1,31 @@
+server:
+  port: 80
+
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://1.15.145.125:3506/agricultural_products?serverTimezone=UTC
+      username: root
+      password: Admin123!
+#springboot配置banner
+  banner:
+    image:
+      location: banner.txt
+#格式化日期格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm
+#启动mybatis-plus日志
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  #global-config:
+   # db-config:
+      #table-prefix: tbl_
+#添加分页插件配置
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql

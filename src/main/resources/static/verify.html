@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>验证码测试</title>
+</head>
+<body>
+<img src="/kaptcha"
+     onclick="this.src='/kaptcha?d='+new Date()*1">
+账号：<input type="text" id="username" placeholder="请输入账号">
+密码：<input type="password" id="password" placeholder="请输入密码">
+<input type="text" maxlength="5" id="code" placeholder="请输入验证码">
+<button id="verify">验证</button>
+</body>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#verify").click(function () {
+            var code = $("#code").val();
+            var username = $("#username").val();
+            var password = $("#password").val();
+            console.log(code)
+            console.log(username)
+            console.log(password)
+            $.ajax({
+                type: 'POST',//方法类型
+                // url: '/loginJuge?code=' + code,
+                url: '/userJugeLogin?code=' + code,
+                success: function (result) {
+                    alert(result);
+                },
+                error: function () {
+                    alert("请求失败");
+                }
+            });
+        })
+    });
+</script>
+</html>

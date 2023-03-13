@@ -1,0 +1,46 @@
+<!--
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.gricultural.mapper.ProductManagerBinMapper">
+
+    <resultMap type="com.gricultural.pojo.ProductManagerBin" id="productManagerBinMap">
+        &lt;!&ndash; 定义主键 ,非常重要。如果是多个字段,则定义多个id &ndash;&gt;
+        &lt;!&ndash; property：主键在pojo中的属性名 &ndash;&gt;
+        &lt;!&ndash; column：主键在数据库中的列名 &ndash;&gt;
+        <id property="id" column="id" />
+
+        &lt;!&ndash; 定义普通属性 &ndash;&gt;
+        <result property="sourceCode" column="source_code" />
+        <result property="productName" column="product_name" />
+        <result property="batch" column="batch" />
+        <result property="area" column="area" />
+        <result property="productSta" column="product_sta" />
+        <result property="farm" column="farm" />
+        <result property="producedDay" column="produced_day" />
+        <result property="updateTime" column="update_time" />
+        <result property="validityDay" column="validity_day" />
+        <result property="reportName" column="report_name" />
+        <result property="remark" column="remark" />
+    </resultMap>
+
+
+    <select id="selectByIds" parameterType="com.gricultural.mapper.ProductManagerMapper" resultMap="productManagerBinMap">
+        SELECT * FROM tbl_product_manager WHERE id IN
+        <foreach item="item" index="index" collection="ids"
+                 open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+
+    <insert id="batchInsert" parameterType="com.gricultural.mapper.ProductManagerBinMapper">
+        INSERT INTO tbl_product_return_manager (source_code, product_name, batch, area, product_sta, farm, produced_day, update_time, validity_day, report_name, remark) VALUES
+        <foreach collection="list" item="item" separator=",">
+            (#{item.sourceCode}, #{item.productName}, #{item.batch},
+            #{item.area},#{item.productSta},#{item.farm},#{item.producedDay},#{item.updateTime},
+            #{item.validityDay},#{item.reportName},#{item.remark}
+            )
+        </foreach>
+    </insert>
+</mapper>
+-->
